@@ -1,0 +1,19 @@
+{
+  "name": "paybyphone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-esm app.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "puppeteer": "^20.8.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
